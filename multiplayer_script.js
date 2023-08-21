@@ -56,10 +56,6 @@ function markBox(e){
     }
     e.target.removeEventListener("click",markBox);
 }
-/*threeInRow();
-        threeInColumn();
-        threeInDiagonal();
-        threeInAntiDiagonal();*/
 function threeInRow(){
     for(let r=0;r<rows;r++){
         let c=0;
