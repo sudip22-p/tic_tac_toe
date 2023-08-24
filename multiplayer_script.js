@@ -130,8 +130,11 @@ function tieCheck(){
     }
 }
 function gameOver(first,second,third){
+    first.style.color="red";
     first.style.backgroundColor="gold";
+    second.style.color="red";
     second.style.backgroundColor="gold";
+    third.style.color="red";
     third.style.backgroundColor="gold";
     const boxes = document.querySelectorAll(".box");
     boxes.forEach(box => {
