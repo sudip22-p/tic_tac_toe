@@ -58,6 +58,7 @@ span#msg,span#s-msg{
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    user-select: none;
 }
 .btn:hover{background-color: #3e8e41}
 .btn:active{
