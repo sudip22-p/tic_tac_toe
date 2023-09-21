@@ -66,6 +66,7 @@ span#msg,span#s-msg{
     transform: translateY(4px);
 }
 span#replay,span#s-replay{
+    user-select: none;
     display: none;
 }
 div.choice{
